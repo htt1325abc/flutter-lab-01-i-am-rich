@@ -1,0 +1,21 @@
+name: lab01_i_am_rich
+description: "Lab 1 - ứng dụng I Am Rich cơ bản bằng Flutter."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/diamond.png
